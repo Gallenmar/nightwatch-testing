@@ -1,0 +1,15 @@
+{
+	"name": "cura-healthcare-tests",
+	"version": "1.0.0",
+	"description": "Nightwatch.js tests for CURA Healthcare Service",
+	"scripts": {
+		"test": "nightwatch",
+		"test:chrome": "nightwatch --env chrome",
+		"test:parallel": "nightwatch --env \"chrome,firefox\""
+	},
+	"devDependencies": {
+		"chromedriver": "^136.0.0",
+		"geckodriver": "^4.5.1",
+		"nightwatch": "^3.3.5"
+	}
+}
